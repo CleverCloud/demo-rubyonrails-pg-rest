@@ -17,6 +17,7 @@ On your Clever Cloud application you must specify some environment variables as 
   - "2.3" will select the greatest "2.0.Y" version available;
   - "2.3.1-p112" will select the "2.3.1-p112" version.
 - `SECRET_KEY_BASE` with a value that can be generate using `rake secret`.
+- `STATIC_FILE_PATH` with value "/public" to [serve static files and assets](https://www.clever-cloud.com/doc/ruby/ruby-on-rails/#assets-and-static-files)
 
 This application is provided to work with Postgresql, you have to define the next variables, or link your application with Postgresql addon on Clever.
 
